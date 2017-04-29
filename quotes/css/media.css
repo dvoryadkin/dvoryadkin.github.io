@@ -10,7 +10,6 @@
 		font-size: 60px;
 	}
 }
-
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
 	.quotes {
@@ -20,8 +19,14 @@
 		font-size: 50px;
 		line-height: 60px;
 	}
+	.copyright__social {
+		text-align: center;
+	}
+	.copyright__text {
+		text-align: center;
+		margin-bottom: 30px;
+	}
 }
-
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	.main__text-top {
@@ -40,7 +45,6 @@
 		font-size: 30px;
 	}
 }
-
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
 	.main__text-top {
@@ -85,8 +89,10 @@
 		font-size: 40px;
 		line-height: 50px;
 	}
+	.quotes__link {
+		display: block;
+	}
 }
-
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
 	.main__text-top {

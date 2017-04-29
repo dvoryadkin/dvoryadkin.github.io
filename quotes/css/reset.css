@@ -56,27 +56,23 @@ table {
 	color: #666;
 	opacity: 1;
 }
-
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
 }
 body input:required:valid,
 body textarea:required:valid {
 }
-
 body {
 	font-family: sans-serif;
 	overflow-x: hidden;
 	margin: auto;
 }
-
 a:hover {
 	text-decoration: none;
 }
 a:focus {
 	text-decoration: none;
 }
-
 .clearfix:after {
 	display: table;
 	clear: both;

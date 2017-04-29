@@ -1,29 +1,9 @@
-// E-mail Ajax Send
-// Documentation & Example: https://github.com/agragregra/uniMail
-$(function() {
-$("form").submit(function() { //Change
-	var th = $(this);
-	$.ajax({
-		type: "POST",
-			url: "mail.php", //Change
-			data: th.serialize()
-		}).done(function() {
-			alert("Thank you!");
-			setTimeout(function() {
-				// Done Functions
-				th.trigger("reset");
-			}, 1000);
-		});
-		return false;
-	});
-});
-
-
 // Animate CSS + WayPoints
-// Example: $(".element").animated("zoomInUp", "zoomOutDown");
-
-
-
+$(".main__text").animated("fadeInDown", "fadeOutUp");
+$(".desc__heading").animated("fadeInDown", "fadeOutDown");
+$(".desc__heading-bottom").animated("fadeInUp", "fadeOutDown");
+$(".desc__details").animated("fadeInUp", "fadeOutDown");
+$(".desc__text").animated("fadeIn", "fadeOut");
 
 // Menu button animation
 var menu = {
@@ -55,8 +35,6 @@ var menu = {
 };
 menu.init();
 
-
-
 // Show/hide menu
 $(".menu__button").click(function() {
 	if ($(".main__overlay").is(":visible")) {
@@ -66,12 +44,11 @@ $(".menu__button").click(function() {
 	};
 });
 
-
+// Slider
 $(document).ready(function(){
 	$('.customers__slider').slick({
 		dots: true,
 		arrows: false,
 		autoplay: true,
-
 	});
 });

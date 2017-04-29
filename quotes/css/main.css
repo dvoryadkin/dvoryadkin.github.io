@@ -4,7 +4,6 @@ body {
 	margin: auto;
 	min-width: 320px;
 }
-
 .main {
 	height: 1000px;
 	position: relative;
@@ -261,13 +260,11 @@ body {
 .quotes__wrapper {
 	width: 80%;
 	margin: auto;
-	
 }
 .quotes__quote {
 	font-size: 60px;
 	font-weight: 700;
 	line-height: 80px;
-
 	margin-bottom: 60px;
 }
 .quotes__title {
@@ -280,7 +277,94 @@ body {
 .quotes__link:hover {
 	color: #FFF;
 
-}.quotes__link:focus {
+}
+.quotes__link:focus {
 	color: #FFF;
 	text-decoration: underline;
+}
+.row {
+	margin: 0;
+}
+.footer {
+	padding-bottom: 60px;
+	font-family: 'Montserrat', sans-serif;
+}
+.footer__heading {
+	padding: 60px 0;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+.browse__link, .shop__link, .footer__contact {
+	font-size: 16px;
+	line-height: 40px;
+	color: #333333;
+	letter-spacing: 2px;
+}
+.footer__subscribe {
+	font-size: 16px;
+	line-height: 20px;
+	color: #333333;
+	letter-spacing: 2px;
+}
+.subscribe__email	{
+	margin-top: 35px;
+	padding: 14px 19px;
+	background-color: #f2f4f5;
+	border: none;
+}
+.subscribe__button {
+	display: block;
+	margin-top: 30px;
+	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	color: #333333;
+	background-color: transparent;
+	padding: 13px 35px;
+	border: 2px solid #333333;
+	border-radius: 5px;
+	letter-spacing: 3px;
+}
+.subscribe__button:hover {
+	color: #FFF;
+	background-color: #333333;
+}
+.subscribe__button:focus {
+	color: #333333;
+	background-color: transparent;
+}
+.subscribe__email::-webkit-input-placeholder {
+	letter-spacing: 3px;
+}
+.subscribe__email::-moz-placeholder	{
+	letter-spacing: 3px;
+}
+.subscribe__email:-moz-placeholder	{
+	letter-spacing: 3px;
+}
+.subscribe__email:-ms-input-placeholder	{
+	letter-spacing: 3px;
+}
+.copyright {
+	padding: 45px 0;
+	background-color: #f2f4f5;
+	font-family: 'Montserrat', sans-serif;
+}
+.copyright__social {
+	text-align: right;
+}
+.social__item {
+	display: inline-block;
+}
+.social__link {
+	color: #d5d5d3;
+	padding: 0 5px 0;
+}
+.social__link:hover {
+	color: #333333;
+}
+.social__link:focus {
+	color: #333333;
 }
