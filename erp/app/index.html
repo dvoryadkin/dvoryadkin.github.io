@@ -1,0 +1,791 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<title>Базы данных ERP CRM 1С</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+	<!-- Chrome, Firefox OS and Opera -->
+	<meta name="theme-color" content="#000">
+	<!-- Windows Phone -->
+	<meta name="msapplication-navbutton-color" content="#000">
+	<!-- iOS Safari -->
+	<meta name="apple-mobile-web-app-status-bar-style" content="#000">
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<div class="popup">
+		<button class="icon-cancel popup__close-button"></button>
+		<h4 class="popup__heading">Заказать бесплатное техническое задание</h4>
+		<p class="popup__desc">Для заказа заполните форму ниже, и наш менеджер свяжется с Вами в ближайшее время</p>
+		<form action="#" class="popup__form">
+			<input type="text" class="popup__name" name="name" placeholder="Ваше имя...">
+			<input type="text" class="popup__phone" name="phone" placeholder="Ваш телефон...">
+			<input type="text" class="popup__email" name="email" placeholder="Ваш-mail...">
+			<button class="popup__button">Заказать    →</button>
+		</form>
+	</div>
+	<header class="header container">
+		<div class="row">
+			<span class="header__phone col-xs-12 col-sm-4 col-md-3 col-sm-push-3 col-md-push-2 col-md-offset-5 col-sm-offset-2 header__phone--align">+7 (495) 380-37-74</span>
+			<button class="header__menu-button icon-align-left col-xs-1 visible-xs"></button>
+			<ul class="header__social col-xs-5 col-sm-3 col-md-2 col-sm-push-3 col-md-push-2">
+				<li class="social__item"><a href="#" class="social__link icon-vkontakte"></a></li>
+				<li class="social__item"><a href="#" class="social__link icon-twitter"></a></li>
+				<li class="social__item"><a href="#" class="social__link icon-facebook-squared"></a></li>
+				<li class="social__item"><a href="#" class="social__link icon-instagram"></a></li>
+				<li class="social__item"><a href="#" class="social__link icon-youtube-play"></a></li>
+			</ul>
+			<a href="mailto:info@it-rules.ru" class="header__email col-xs-5 col-sm-3 col-md-2 col-sm-pull-7 col-md-pull-5">info@it-rules.ru</a>
+			<button class="header__search-button icon-search col-xs-1 visible-xs"></button>
+		</div>
+	</header>
+	<section class="main container">
+		<div class="row wrapper">
+			<ul class="main__navbar col-sm-11 hidden-xs">
+				<li class="navbar__item"><a href="#" class="navbar__link">Решения и результаты</a></li>
+				<li class="navbar__item"><a href="#" class="navbar__link">С какими работаем</a></li>
+				<li class="navbar__item"><a href="#" class="navbar__link">Системы</a></li>
+				<li class="navbar__item"><a href="#" class="navbar__link">Почему мы</a></li>
+				<li class="navbar__item"><a href="#" class="navbar__link">Нам доверяют</a></li>
+				<li class="navbar__item"><a href="#" class="navbar__link">Что еще</a></li>
+			</ul>
+			<button class="main__search-button icon-search col-sm-1 hidden-xs"></button>
+		</div>
+		<div class="hidden menu--hidden hidden-xs">
+			<div class="row">
+				<ul class="main__navbar main__navbar--fixed col-sm-12 hidden-xs">
+					<li class="navbar__item"><a href="#" class="navbar__link">Решения и результаты</a></li>
+					<li class="navbar__item"><a href="#" class="navbar__link">С какими работаем</a></li>
+					<li class="navbar__item"><a href="#" class="navbar__link">Системы</a></li>
+					<li class="navbar__item"><a href="#" class="navbar__link">Почему мы</a></li>
+					<li class="navbar__item"><a href="#" class="navbar__link">Нам доверяют</a></li>
+					<li class="navbar__item"><a href="#" class="navbar__link">Что еще</a></li>
+					<span class="header__phone main__phone--fixed">+7 (495) 380-37-74</span>
+				</ul>
+			</div>
+		</div>
+		<div class="main__content">
+			<div class="row wrapper">
+				<div class="col-md-9">
+					<h2 class="content__heading">Базы данных  ERP  CRM  1C</h2>
+					<div class="content__text">
+						Подбор. Внедрение. Разработка. Обучение. Сопровождение.
+						Бесплатное гарантийное обслуживание - 2 года!
+					</div>
+					<button class="big-button content__button">Заказать    →</button>
+					<span class="content__action">Закажите бесплатное техническое задание!</span>
+				</div>
+				<img src="img/main-photo.png" alt="main-photo" class="content__photo col-md-3">
+			</div>
+			<div class="row wrapper">
+				<ul class="main__list col-md-5 col-sm-6 col-xs-12">
+					<li class="main__list-item">
+						<a href="#" class="main__list-link">ERP</a>
+						<span class="main__list-text"> - прибыль и ваше свободное время</span>
+					</li>
+					<li class="main__list-item">
+						<a href="#" class="main__list-link">CRM</a>
+						<span class="main__list-text"> - новые продажи вашим старым клиентам</span>
+					</li>
+					<li class="main__list-item">
+						<a href="#" class="main__list-link">BI</a>
+						<span class="main__list-text"> - быстрая и точная проверка вашего бизнеса</span>
+					</li>
+				</ul>
+				<ul class="main__list col-md-5 col-sm-6 col-xs-12">
+					<li class="main__list-item">
+						<a href="#" class="main__list-link">SCM</a>
+						<span class="main__list-text"> - оперативное исполнение ваших поручений без бумаги</span>
+					</li>
+					<li class="main__list-item">
+						<a href="#" class="main__list-link">ИТ Инфраструктура</a>
+						<span class="main__list-text"> - надежная работа бизнеса и ваше спокойствие 24/7</span>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="advantages container">
+		<div class="row">
+			<div class="col-md-2 col-md-offset-1 advantages__item">
+				<i class="advantages__icon icon-1"></i>
+				<h3 class="advantages__heading">Опыт</h3>
+				<p class="advantages__text">разработки IT решений более 15 лет</p>
+			</div>
+			<div class="col-md-2 advantages__item">
+				<i class="advantages__icon icon-2"></i>
+				<h3 class="advantages__heading">Работа</h3>
+				<p class="advantages__text">с различными поставщиками ПО (более 18)</p>
+			</div>
+			<div class="col-md-2 advantages__item">
+				<i class="advantages__icon icon-3"></i>
+				<h3 class="advantages__heading">Заказчики</h3>
+				<p class="advantages__text">со штатом более чем 1000 сотрудников</p>
+			</div>
+			<div class="col-md-2 advantages__item">
+				<i class="advantages__icon icon-4"></i>
+				<h3 class="advantages__heading">Отчетность</h3>
+				<p class="advantages__text">любой сложности а также по стандартам РСБУ и МСФО/GAAP</p>
+			</div>
+			<div class="col-md-2 advantages__item">
+				<i class="advantages__icon icon-5"></i>
+				<h3 class="advantages__heading">Решения</h3>
+				<p class="advantages__text">работают у 160 довольных клиентов</p>
+			</div>
+		</div>
+		<div class="row advantages__par">
+			<p class="advantages__par-top col-xs-12">Профессиональное техническое задание-гарантия уменьшения бюджета ИТ проекта до 70% </p>
+			<p class="advantages__par-bottom col-xs-12">Бесплатное техническое задание при заключении договора на работы</p>
+		</div>
+	</section>
+	<section class="solutions container">
+		<h2 class="section__heading solutions__heading">Решения и результаты внедрения</h2>
+		<p class="solutions__desc">Мы предлагаем, как комплексные решения для компаний, так и готовые решения в конкретных направлениях.</p>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="solutions__item">
+					<i class="solution__icon icon-6"></i>
+					<h4 class="solution__heading">Продажи</h4>
+					<div class="solution__container">
+						<span class="solution__task">Задача:</span>
+						<span class="solution__task-text">Увеличение повторных продаж на 30% за полгода!</span>
+					</div>
+					<div class="solution__container">
+						<span class="solution__goal">Решение:</span>
+						<span class="solution__goal-text">Автоматизация воронки продаж</span>
+					</div>
+					<button class="solution__button" id="button-1">Развернуть<i class="icon-angle-down solution__button-icon"></i></button>
+					<div class="solution__hidden" id="solution-1">
+						<div class="solution__container">
+							<span class="solution__task">Задача:</span>
+							<span class="solution__task-text">Увеличение повторныхпродаж на 30% за полгода!</span>
+						</div>
+						<div class="solution__container">
+							<span class="solution__goal">Решение:</span>
+							<span class="solution__goal-text">Автоматизация воронки продаж</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="solutions__item">
+					<i class="solution__icon icon-7"></i>
+					<h4 class="solution__heading">Поддержка продаж</h4>
+					<div class="solution__container">
+						<span class="solution__task">Задача:</span>
+						<span class="solution__task-text">Поддержка до 100 клиентов одним менеджером!</span>
+					</div>
+					<div class="solution__container">
+						<span class="solution__goal">Решение:</span>
+						<span class="solution__goal-text">Система управления взаимоотношениями с клиентом CRM</span>
+					</div>
+					<button class="solution__button" id="button-2">Развернуть<i class="icon-angle-down solution__button-icon"></i></button>
+					<div class="solution__hidden" id="solution-2">
+						<div class="solution__container">
+							<span class="solution__task">Задача:</span>
+							<span class="solution__task-text">Увеличение повторныхпродаж на 30% за полгода!</span>
+						</div>
+						<div class="solution__container">
+							<span class="solution__goal">Решение:</span>
+							<span class="solution__goal-text">Автоматизация воронки продаж</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="solutions__item">
+					<i class="solution__icon icon-8"></i>
+					<h4 class="solution__heading">Логистика</h4>
+					<div class="solution__container">
+						<span class="solution__task">Задача:</span>
+						<span class="solution__task-text">Уменьшение затоваривания складов на 1/4 в течение б мес.!</span>
+					</div>
+					<div class="solution__container">
+						<span class="solution__goal">Решение:</span>
+						<span class="solution__goal-text">ABC анализ товарооборота</span>
+					</div>
+					<button class="solution__button" id="button-3">Развернуть<i class="icon-angle-down solution__button-icon"></i></button>
+					<div class="solution__hidden" id="solution-3">
+						<div class="solution__container">
+							<span class="solution__task">Задача:</span>
+							<span class="solution__task-text">Увеличение повторныхпродаж на 30% за полгода!</span>
+						</div>
+						<div class="solution__container">
+							<span class="solution__goal">Решение:</span>
+							<span class="solution__goal-text">Автоматизация воронки продаж</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row solutions__hidden-1 hidden-xs">
+			<div class="col-md-4">
+				<div class="solutions__item">
+					<i class="solution__icon icon-9"></i>
+					<h4 class="solution__heading">Производство</h4>
+					<div class="solution__container">
+						<span class="solution__task">Задача:</span>
+						<span class="solution__task-text">Сокращение ФОТ производственных рабочих на 10%</span>
+					</div>
+					<div class="solution__container">
+						<span class="solution__goal">Решение:</span>
+						<span class="solution__goal-text">Уменьшение переработок до 0  </span>
+					</div>
+					<button class="solution__button" id="button-4">Развернуть<i class="icon-angle-down solution__button-icon"></i></button>
+					<div class="solution__hidden" id="solution-4">
+						<div class="solution__container">
+							<span class="solution__task">Задача:</span>
+							<span class="solution__task-text">Увеличение повторныхпродаж на 30% за полгода!</span>
+						</div>
+						<div class="solution__container">
+							<span class="solution__goal">Решение:</span>
+							<span class="solution__goal-text">Автоматизация воронки продаж</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="solutions__item">
+					<i class="solution__icon icon-10"></i>
+					<h4 class="solution__heading">Оказание услуг</h4>
+					<div class="solution__container">
+						<span class="solution__task">Задача:</span>
+						<span class="solution__task-text">Сокращение срывов сроков по подрядам в два раза за 9 месяцев</span>
+					</div>
+					<div class="solution__container">
+						<span class="solution__goal">Решение:</span>
+						<span class="solution__goal-text">Система взаимодействия с заказчиками и подрядчиками</span>
+					</div>
+					<button class="solution__button" id="button-5">Развернуть<i class="icon-angle-down solution__button-icon"></i></button>
+					<div class="solution__hidden" id="solution-5">
+						<div class="solution__container">
+							<span class="solution__task">Задача:</span>
+							<span class="solution__task-text">Увеличение повторныхпродаж на 30% за полгода!</span>
+						</div>
+						<div class="solution__container">
+							<span class="solution__goal">Решение:</span>
+							<span class="solution__goal-text">Автоматизация воронки продаж</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="solutions__item">
+					<i class="solution__icon icon-11"></i>
+					<h4 class="solution__heading">Персонал</h4>
+					<div class="solution__container">
+						<span class="solution__task">Задача:</span>
+						<span class="solution__task-text">Повышение индивидуальных KPI сотрудников до 15%</span>
+					</div>
+					<div class="solution__container">
+						<span class="solution__goal">Решение:</span>
+						<span class="solution__goal-text">Индивидуальны план развития компетенций сотрудника</span>
+					</div>
+					<button class="solution__button" id="button-6">Развернуть<i class="icon-angle-down solution__button-icon"></i></button>
+					<div class="solution__hidden" id="solution-6">
+						<div class="solution__container">
+							<span class="solution__task">Задача:</span>
+							<span class="solution__task-text">Увеличение повторныхпродаж на 30% за полгода!</span>
+						</div>
+						<div class="solution__container">
+							<span class="solution__goal">Решение:</span>
+							<span class="solution__goal-text">Автоматизация воронки продаж</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row solutions__hidden-2 hidden-xs">
+			<div class="col-md-4">
+				<div class="solutions__item">
+					<i class="solution__icon icon-12"></i>
+					<h4 class="solution__heading">Аналитика</h4>
+					<div class="solution__container">
+						<span class="solution__task">Задача:</span>
+						<span class="solution__task-text">Повышение качества управленческих решений в разы</span>
+					</div>
+					<div class="solution__container">
+						<span class="solution__goal">Решение:</span>
+						<span class="solution__goal-text">Персонолизированные KPI для вашего бизнеса</span>
+					</div>
+					<button class="solution__button" id="button-7">Развернуть<i class="icon-angle-down solution__button-icon"></i></button>
+					<div class="solution__hidden" id="solution-7">
+						<div class="solution__container">
+							<span class="solution__task">Задача:</span>
+							<span class="solution__task-text">Увеличение повторныхпродаж на 30% за полгода!</span>
+						</div>
+						<div class="solution__container">
+							<span class="solution__goal">Решение:</span>
+							<span class="solution__goal-text">Автоматизация воронки продаж</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="solutions__item">
+					<i class="solution__icon icon-13"></i>
+					<h4 class="solution__heading">Коммуникации</h4>
+					<div class="solution__container">
+						<span class="solution__task">Задача:</span>
+						<span class="solution__task-text">Повышение скорости согласования документов в 3 раза</span>
+					</div>
+					<div class="solution__container">
+						<span class="solution__goal">Решение:</span>
+						<span class="solution__goal-text">Автоматизации процессов прохождения документов</span>
+					</div>
+					<button class="solution__button" id="button-8">Развернуть<i class="icon-angle-down solution__button-icon"></i></button>
+					<div class="solution__hidden" id="solution-8">
+						<div class="solution__container">
+							<span class="solution__task">Задача:</span>
+							<span class="solution__task-text">Увеличение повторныхпродаж на 30% за полгода!</span>
+						</div>
+						<div class="solution__container">
+							<span class="solution__goal">Решение:</span>
+							<span class="solution__goal-text">Автоматизация воронки продаж</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="solutions__item">
+					<i class="solution__icon icon-14"></i>
+					<h4 class="solution__heading">Инфраструктура</h4>
+					<div class="solution__container">
+						<span class="solution__task">Задача:</span>
+						<span class="solution__task-text">Снижение затрат на обслуживание ИТ на 20%</span>
+					</div>
+					<div class="solution__container">
+						<span class="solution__goal">Решение:</span>
+						<span class="solution__goal-text">Система размещения и оценок ИТ заявок HelpDesk</span>
+					</div>
+					<button class="solution__button" id="button-9">Развернуть<i class="icon-angle-down solution__button-icon"></i></button>
+					<div class="solution__hidden" id="solution-9">
+						<div class="solution__container">
+							<span class="solution__task">Задача:</span>
+							<span class="solution__task-text">Увеличение повторныхпродаж на 30% за полгода!</span>
+						</div>
+						<div class="solution__container">
+							<span class="solution__goal">Решение:</span>
+							<span class="solution__goal-text">Автоматизация воронки продаж</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 visible-xs">
+				<button class="big-button solutions__load-button">Загрузить еще</button>
+			</div>
+		</div>
+	</section>
+	<section class="systems container">
+		<h2 class="section__heading systems__heading">С какими системами мы работаем</h2>
+		<p class="systems__text">Мы работаем со всеми лидерами Российского рынка программного обеспечения. Наши специалисты подберут наилучшую систему для Вашего бизнеса. Так же мы готовы реализовать необходимое решение для Вашей организации в выбранной вами системе.</p>
+		<ul class="systems__icons">
+			<li class="systems__icons-item"><img src="img/logos/oracle.png" alt="oracle" class="systems__icons-img"></li>
+			<li class="systems__icons-item"><img src="img/logos/dynamics.png" alt="dynamics" class="systems__icons-img"></li>
+			<li class="systems__icons-item"><img src="img/logos/lotus.png" alt="lotus" class="systems__icons-img"></li>
+			<li class="systems__icons-item"><img src="img/logos/siebel.png" alt="siebel" class="systems__icons-img"></li>
+			<li class="systems__icons-item"><img src="img/logos/dynamics2.png" alt="dynamics" class="systems__icons-img"></li>
+			<li class="systems__icons-item"><img src="img/logos/galactica.png" alt="galactica" class="systems__icons-img"></li>
+			<li class="systems__icons-item"><img src="img/logos/oracle2.png" alt="oracle" class="systems__icons-img"></li>
+			<li class="systems__icons-item"><img src="img/logos/1c.png" alt="1c" class="systems__icons-img"></li>
+			<li class="systems__icons-item"><img src="img/logos/megaplan.png" alt="megaplan" class="systems__icons-img"></li>
+			<li class="systems__icons-item"><img src="img/logos/terrasoft.png" alt="terrasoft" class="systems__icons-img"></li>
+			<li class="systems__icons-item"><img src="img/logos/sql.png" alt="sql" class="systems__icons-img"></li>
+			<li class="systems__icons-item"><img src="img/logos/cognos.png" alt="cognos" class="systems__icons-img"></li>
+			<li class="systems__icons-item"><img src="img/logos/sap.png" alt="sap" class="systems__icons-img"></li>
+		</ul>
+		<ul class="systems__buttons">
+			<li class="buttons__item"><button class="buttons__button">Система ERP</button></li>
+			<li class="buttons__item"><button class="buttons__button">Система CRM</button></li>
+			<li class="buttons__item"><button class="buttons__button button--bi">BI</button></li>
+			<li class="buttons__item"><button class="buttons__button">CSM</button></li>
+			<li class="buttons__item"><button class="buttons__button button--wms">Система WMS</button></li>
+			<li class="buttons__item"><button class="buttons__button">ИТ Инфраструктура</button></li>
+		</ul>
+		<p class="systems__erp-text">
+			ERP - (Entreprise resurs planning) система планирования ресурсами предприятия. <br>
+			Изначально узкоспециализированный класс систем, для планирования производства.
+		</p>
+		<div class="systems__list">
+			<p class="systems__list-heading">
+				В современном прочтении - это комплексная информационная система для учета ЛЮБОЙ хозяйственной деятельности компании:
+			</p>
+			<ul class="systems__checklist">
+				<li class="checklist__item"><i class="icon-15"></i>Движение денежных потоков.</li>
+				<li class="checklist__item"><i class="icon-15"></i>Движение товарно-материальных ценностей.</li>
+				<li class="checklist__item"><i class="icon-15"></i>Производство и планирование производственных мощностей  (люди/оборудование/сырье). </li>
+				<li class="checklist__item"><i class="icon-15"></i>Персонал и расчет заработной платы.</li>
+				<li class="checklist__item"><i class="icon-15"></i>Бухгалтерия (Основные фонды/нематериальные активы/отчетность).</li>
+				<li class="checklist__item"><i class="icon-15"></i>Взаимодействие с клиентами.</li>
+			</ul>
+		</div>
+		<div class="systems__profit">
+			<h3 class="profit__heading">Выгоды:</h3>
+			<div class="row">
+				<div class="profit__item col-md-4">
+					<span class="profit__number">1</span>
+					<p class="profit__item-text">Освободит время сотрудников  на обработку документов. Информация вносится в систему один раз.</p>
+				</div>
+				<div class="profit__item col-md-4">
+					<span class="profit__number">2</span>
+					<p class="profit__item-text">Повысит прозрачность бизнеса. В режиме реального времени видно состояние бизнеса – кредиторка, неликвиды, проблемные заказы.</p>
+				</div>
+				<div class="profit__item col-md-4">
+					<span class="profit__number">3</span>
+					<p class="profit__item-text">Увеличит свободные денежные средства – более эффективное управление активами (товары на складах, предоплаченные заказы на поставку, основные средства).</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="profit__item col-md-4">
+					<span class="profit__number">4</span>
+					<p class="profit__item-text">Улучшит качество работы с клиентами – более детальная информация для клиента о его заказах.</p>
+				</div>
+				<div class="profit__item col-md-4">
+					<span class="profit__number">5</span>
+					<p class="profit__item-text">Уменьшит затраты на сопровождение и техническую поддержку.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="why container">
+		<h2 class="section__heading why__heading">Почему Вам необходимо обратиться к нам!</h2>
+		<p class="why__text">
+			Любой бизнес сталкивается с определенным моментом, когда человеческие ресурсы неоправданно
+			увеличивают как финансовые, так и временные затраты на обработку различных данных. Что несет в себе потерю клиентов, прибыли и времени!
+		</p>
+		<div class="row">
+			<div class="why__item col-md-3">
+				<i class="why__item-icon icon-16"></i>
+				<p class="why__item-text">
+					Собственный успешный опыт развития компании с количеством сотрудников более 1000 человек
+				</p>
+			</div>
+			<div class="why__item col-md-3">
+				<i class="why__item-icon icon-17"></i>
+				<p class="why__item-text">
+					Собственный успешный опыт развития компании с количеством сотрудников более 1000 человек
+				</p>
+			</div>
+			<div class="why__item col-md-3">
+				<i class="why__item-icon icon-18"></i>
+				<p class="why__item-text">
+					Собственный успешный опыт развития компании с количеством сотрудников более 1000 человек
+				</p>
+			</div>
+			<div class="why__item col-md-3">
+				<i class="why__item-icon icon-19"></i>
+				<p class="why__item-text">
+					Собственный успешный опыт развития компании с количеством сотрудников более 1000 человек
+				</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="why__item col-md-3">
+				<i class="why__item-icon icon-20"></i>
+				<p class="why__item-text">
+					Собственный успешный опыт развития компании с количеством сотрудников более 1000 человек
+				</p>
+			</div>
+			<div class="why__item col-md-3">
+				<i class="why__item-icon icon-21"></i>
+				<p class="why__item-text">
+					Собственный успешный опыт развития компании с количеством сотрудников более 1000 человек
+				</p>
+			</div>
+			<div class="why__item col-md-3">
+				<i class="why__item-icon icon-22"></i>
+				<p class="why__item-text">
+					Собственный успешный опыт развития компании с количеством сотрудников более 1000 человек
+				</p>
+			</div>
+			<div class="why__item col-md-3">
+				<i class="why__item-icon icon-23"></i>
+				<p class="why__item-text">
+					Собственный успешный опыт развития компании с количеством сотрудников более 1000 человек
+				</p>
+			</div>
+		</div>
+		<p class="why__bottom-text">
+			Мы предложим Вам одни из самых выгодных условий как по срокам, так и по стоимости!
+		</p>
+	</section>
+	<section class="stages container">
+		<h2 class="section__heading stages__heading">Этапы работ</h2>
+		<div class="row">
+			<div class="stages__item stages__item-1 stages__item--active col-md-2 col-md-offset-1">
+				<i class="stages__item-icon icon-24"></i>
+				<span class="stages__item-heading">1 Этап</span>
+				<span class="stages__item-desc">Предварительный</span>
+			</div>
+			<div class="stages__mobile stages__mobile-1 col-sm-12 hidden-md hidden-lg">
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 1</span>
+					<p class="stages__open-text">Подготовка и согласование документации по проекту</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 2</span>
+					<p class="stages__open-text">Создание и передача инструкций на  рабочие места</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 3</span>
+					<p class="stages__open-text">Обучение сотрудников</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 4</span>
+					<p class="stages__open-text">Обучение службы поддержки</p>
+				</div>
+			</div>
+			<div class="clearfix hidden-md hidden-lg"></div>
+			<div class="stages__item stages__item-2 col-md-2">
+				<i class="stages__item-icon icon-25"></i>
+				<span class="stages__item-heading">2 Этап</span>
+				<span class="stages__item-desc">ТЗ</span>
+			</div>
+			<div class="stages__mobile stages__mobile-2 col-sm-12 hidden-md hidden-lg">
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 1</span>
+					<p class="stages__open-text">Подготовка и согласование документации по проекту</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 2</span>
+					<p class="stages__open-text">Создание и передача инструкций на  рабочие места</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 3</span>
+					<p class="stages__open-text">Обучение сотрудников</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 4</span>
+					<p class="stages__open-text">Обучение службы поддержки</p>
+				</div>
+			</div>
+			<div class="clearfix hidden-md hidden-lg"></div>
+			<div class="stages__item stages__item-3 col-md-2">
+				<i class="stages__item-icon icon-26"></i>
+				<span class="stages__item-heading">3 Этап</span>
+				<span class="stages__item-desc">Проект</span>
+			</div>
+			<div class="stages__mobile stages__mobile-3 col-sm-12 hidden-md hidden-lg">
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 1</span>
+					<p class="stages__open-text">Подготовка и согласование документации по проекту</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 2</span>
+					<p class="stages__open-text">Создание и передача инструкций на  рабочие места</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 3</span>
+					<p class="stages__open-text">Обучение сотрудников</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 4</span>
+					<p class="stages__open-text">Обучение службы поддержки</p>
+				</div>
+			</div>
+			<div class="clearfix hidden-md hidden-lg"></div>
+			<div class="stages__item stages__item-4 col-md-2">
+				<i class="stages__item-icon icon-27"></i>
+				<span class="stages__item-heading">4 Этап</span>
+				<span class="stages__item-desc">Промышленная эксплуатация</span>
+			</div>
+			<div class="stages__mobile stages__mobile-4 col-sm-12 hidden-md hidden-lg">
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 1</span>
+					<p class="stages__open-text">Подготовка и согласование документации по проекту</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 2</span>
+					<p class="stages__open-text">Создание и передача инструкций на  рабочие места</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 3</span>
+					<p class="stages__open-text">Обучение сотрудников</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 4</span>
+					<p class="stages__open-text">Обучение службы поддержки</p>
+				</div>
+			</div>
+			<div class="clearfix hidden-md hidden-lg"></div>
+			<div class="stages__item stages__item-5 col-md-2">
+				<i class="stages__item-icon icon-28"></i>
+				<span class="stages__item-heading">5 Этап</span>
+				<span class="stages__item-desc">Гарантийное обслуживание</span>
+			</div>
+			<div class="stages__mobile stages__mobile-5 col-sm-12 hidden-md hidden-lg">
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 1</span>
+					<p class="stages__open-text">Подготовка и согласование документации по проекту</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 2</span>
+					<p class="stages__open-text">Создание и передача инструкций на  рабочие места</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 3</span>
+					<p class="stages__open-text">Обучение сотрудников</p>
+				</div>
+				<div class="stages__open-step col-sm-12">
+					<span class="stages__open-heading">Шаг 4</span>
+					<p class="stages__open-text">Обучение службы поддержки</p>
+				</div>
+			</div>
+			<div class="clearfix hidden-md hidden-lg"></div>
+		</div>
+		<div class="row hidden-xs hidden-sm">
+			<div class="stages__open stages__open-1 col-md-10 col-md-offset-1">
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 1</span>
+					<p class="stages__open-text">Подготовка и согласование документации по проекту</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 2</span>
+					<p class="stages__open-text">Создание и передача инструкций на  рабочие места</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 3</span>
+					<p class="stages__open-text">Обучение сотрудников</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 4</span>
+					<p class="stages__open-text">Обучение службы поддержки</p>
+				</div>
+			</div>
+			<div class="stages__open stages__open-2 col-md-10 col-md-offset-1">
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 1</span>
+					<p class="stages__open-text">Формулировка требований к автоматизации</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 2</span>
+					<p class="stages__open-text">Обследование</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 3</span>
+					<p class="stages__open-text">Предварительное ТЗ</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 4</span>
+					<p class="stages__open-text">Согласование ТЗ</p>
+				</div>
+			</div>
+			<div class="stages__open stages__open-3 col-md-10 col-md-offset-1">
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 1</span>
+					<p class="stages__open-text">Утверждение проектной команды</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 2</span>
+					<p class="stages__open-text">Согласование сроков и этапов работ</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 3</span>
+					<p class="stages__open-text">Исполнение этапа</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 4</span>
+					<p class="stages__open-text">Приемка этапа</p>
+				</div>
+			</div>
+			<div class="stages__open stages__open-4 col-md-10 col-md-offset-1">
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 1</span>
+					<p class="stages__open-text">Подготовка и согласование документации по проекту</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 2</span>
+					<p class="stages__open-text">Создание и передача инструкций на рабочие места</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 3</span>
+					<p class="stages__open-text">Обучение сотрудников</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 4</span>
+					<p class="stages__open-text">Обучение службы поддержки</p>
+				</div>
+			</div>
+			<div class="stages__open stages__open-5 col-md-10 col-md-offset-1">
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 1</span>
+					<p class="stages__open-text">Фиксация замечаний и доп. требований</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 2</span>
+					<p class="stages__open-text">Согласование сроков и этапов работ</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 3</span>
+					<p class="stages__open-text">Исполнение этапа</p>
+				</div>
+				<div class="stages__open-step col-md-3">
+					<span class="stages__open-heading">Шаг 4</span>
+					<p class="stages__open-text">Приемка этапа</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="trust container">
+		<h2 class="section__heading trust__heading">Нам доверяют</h2>
+		<div class="row">
+			<ul class="trust__list col-xs-12">
+				<li class="trust__item"><a href="#" class="trust__link"><img class="trust__img" src="img/logos2/onken.png" alt="onken" class="trust__icon"></a></li>
+				<li class="trust__item"><a href="#" class="trust__link"><img class="trust__img" src="img/logos2/becema.png" alt="becema" class="trust__icon"></a></li>
+				<li class="trust__item"><a href="#" class="trust__link"><img class="trust__img" src="img/logos2/rusproduct.png" alt="rusproduct" class="trust__icon"></a></li>
+				<li class="trust__item"><a href="#" class="trust__link"><img class="trust__img" src="img/logos2/russianpost.png" alt="russianpost" class="trust__icon"></a></li>
+				<li class="trust__item"><a href="#" class="trust__link"><img class="trust__img" src="img/logos2/danone.png" alt="danone" class="trust__icon"></a></li>
+			</ul>
+		</div>
+	</section>
+	<section class="whatif container">
+		<div class="whatif__wrapper">
+			<div class="row">
+				<div class="col-xs-12 hidden-md hidden-lg">
+					<img src="img/bottom-photo.png" alt="bottom-photo" class="whatif__photo">
+				</div>
+				<div class="col-md-7 col-md-offset-1">
+					<h2 class="section__heading whatif__heading">Еще мы можем предложить</h2>
+					<div class="row">
+						<ul class="whatif__list col-md-6">
+							<li class="whatif__item">Поддержка 24/7</li>
+							<li class="whatif__item">Выезд на объект заказчика в течении 3-х часов</li>
+							<li class="whatif__item">Мы работаем по всей России</li>
+							<li class="whatif__item">Полное сопровождение вашей ИТ среды </li>
+						</ul>
+						<ul class="whatif__list col-md-6">
+							<li class="whatif__item">Поставка и наладка оборудования</li>
+							<li class="whatif__item">Минимальные цены среди конкурентов</li>
+							<li class="whatif__item">Душевный разговор<i class="icon-smile"></i></li>
+						</ul>
+					</div>
+					<div class="whatif__order">
+						<button class="big-button whatif__button">Заказать    →</button>
+						<span class="whatif__text">Закажите бесплатное техническое задание!</span>
+					</div>
+				</div>
+				<div class="col-md-3 hidden-sm hidden-xs">
+					<img src="img/bottom-photo.png" alt="bottom-photo" class="whatif__photo">
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer container">
+		<div class="row">
+			<span class="footer__copyright col-lg-6 col-md-7">ООО «ВИДЕО ПРАВИЛА» Можайское ш 112А , работаем с учетом НДС 18%</span>
+			<a href="mailto:info@it-rules.ru" class="footer__email col-lg-2 col-lg-offset-2 col-md-2">info@it-rules.ru</a>
+			<span class="footer__phone col-lg-2 col-md-3">+7 (495) 380-37-74</span>
+		</div>
+	</section>
+	<div class="loader"><div class="loader_inner"></div></div>
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>
