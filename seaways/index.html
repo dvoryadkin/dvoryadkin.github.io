@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+	<title>Title</title>
+	<meta name="description" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+	<link rel="stylesheet" href="css/main.min.css">
+</head>
+<body>
+	<header class="header">
+		<div class="container">
+			<nav class="nav">
+				<div class="row justify-content-between">
+					<div class="col-auto">
+						<button class="icon-menu menu_button"></button>
+						<ul class="dropdown_menu hidden">
+							<li><a href="#">Популярные маршруты</a></li>
+							<li><a href="#">Расписание рейсов</a></li>
+							<li><a href="#">Забронированные рейсы</a></li>
+							<li><a href="#">Вход для партнеров</a></li>
+							<li><a href="#">О компании</a></li>
+							<li><a href="#">Контакты</a></li>
+						</ul>
+					</div>
+					<div class="col-auto">
+						<ul class="nav_menu d-none d-md-block">
+							<li class="menu_item icon-user"><a href="#" class="icon-down-dir user-button">Личный кабинет</a></li>
+							<ul class="login-dropdown hidden">
+								<li><a href="#">Зарегистрироваться</a></li>
+								<li><a href="#">Войти</a></li>
+							</ul>
+							<li class="menu_item icon-rouble"><a href="#" class="icon-down-dir">Рубль</a></li>
+							<li class="menu_item"><a href="#" class="icon-down-dir">Ru</a></li>
+						</ul>
+						<div class="nav_phone d-none d-md-block">
+							<p class="phone_number">8 800 500-61-05</p>
+							<p class="phone_text">Круглосуточная поддержка</p>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<div class="header__main">
+				<img src="./img/header_logo.png" alt="Logo" class="main__logo">
+				<h2>Морские прогулки</h2>
+				<h1 class="main__header">По черному морю</h1>
+				<button class="main__button" id="go">Выбрать круиз</button>
+				<img src="./img/line.png" alt="line" class="main__line">
+			</div>
+		</div> <!-- container -->
+	</header>
+	<div class="container">
+		<section class="catalog">
+			<div class="catalog__top">
+				<h3 class="catalog__header">Каталог круизов</h3>
+				<span class="catalog__sorting">Сортировать круизы по</span>
+				<button class="sorting__button icon-down-dir">По цене</button>
+			</div>
+			<div class="row">
+				<div class="col-md">
+					<div class="catalog__card card__big">
+						<img src="./img/card1.jpg" alt="card_photo" class="card__img">
+						<div class="card__bottom">
+							<a href="#" class="card__header">Морской круиз в анапу<span class="icon-down-dir"></span></a>
+							<p class="card__route"><b>Маршрут: </b>Сочи-Лазаревское-Геленджик-Анапа</p>
+							<p class="card__duration"><b>Продолжительность </b>10 ч. 0 мин.</p>
+							<span class="card__price">49 000 руб.</span>
+						</div>
+					</div>
+					<div class="card__flag flag__blue">
+						<span class="flag__text flag__text-blue">ХИТ ПРОДАЖ</span>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="catalog__card">
+						<img src="./img/card2.jpg" alt="card_photo" class="card__img">
+						<div class="card__bottom">
+							<a href="#" class="card__header">Обзорная морская прогулка с экскурсией<span class="icon-down-dir"></span></a>
+							<p class="card__route"><b>Маршрут: </b>Сочи-Адлер-Сочи (без высадки)</p>
+							<p class="card__duration"><b>Продолжительность </b>1 ч. 0 мин.</p>
+							<span class="card__price">5 000 руб.</span>
+							<span class="card__oldprice">15 000 руб.</span>
+						</div>
+						<div class="card__flag">
+							<span class="flag__text">Скидка 10%</span>
+						</div>
+					</div>
+					<div class="catalog__card">
+						<img src="./img/card3.jpg" alt="card_photo" class="card__img">
+						<div class="card__bottom">
+							<a href="#" class="card__header">Морская прогулка в Геленджик<span class="icon-down-dir"></span></a>
+							<p class="card__route"><b>Маршрут: </b>Сочи-Туапсе-Геленджик</p>
+							<p class="card__duration"><b>Продолжительность </b>12 ч. 30 мин.</p>
+							<span class="card__price">7 000 руб.</span>
+							<span class="card__oldprice">10 000 руб.</span>
+						</div>
+						<div class="card__flag">
+							<span class="flag__text">Акция</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md">
+					<div class="catalog__card card__mid">
+						<img src="./img/card4.jpg" alt="card_photo" class="card__img">
+						<div class="card__bottom">
+							<a href="#" class="card__header">Морской круиз в Новороссийск<span class="icon-down-dir"></span></a>
+							<p class="card__route"><b>Маршрут: </b>Сочи-Геленджик-Новороссйиск-Геленджик-Сочи</p>
+							<p class="card__duration"><b>Продолжительность </b>13 ч. 0 мин.</p>
+							<span class="card__price">14 800 руб.</span>
+						</div>
+					</div>
+				</div>
+				<div class="col-md">
+					<div class="catalog__card card__mid">
+						<img src="./img/card5.jpg" alt="card_photo" class="card__img">
+						<div class="card__bottom">
+							<a href="#" class="card__header">Морская прогулка в Абрау-Дюрсо  <span class="icon-down-dir"></span></a>
+							<p class="card__route"><b>Маршрут: </b>Сочи-Абрау-Дюрсо</p>
+							<p class="card__duration"><b>Продолжительность </b>11 ч. 0 мин.</p>
+							<span class="card__price">14 800 руб.</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="cards__hidden">
+				<div class="row">
+					<div class="col-md">
+						<div class="catalog__card card__big">
+							<img src="./img/card1.jpg" alt="card_photo" class="card__img">
+							<div class="card__bottom">
+								<a href="#" class="card__header">Морской круиз в анапу<span class="icon-down-dir"></span></a>
+								<p class="card__route"><b>Маршрут: </b>Сочи-Лазаревское-Геленджик-Анапа</p>
+								<p class="card__duration"><b>Продолжительность </b>10 ч. 0 мин.</p>
+								<span class="card__price">49 000 руб.</span>
+							</div>
+						</div>
+						<div class="card__flag flag__blue">
+							<span class="flag__text flag__text-blue">ХИТ ПРОДАЖ</span>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="catalog__card">
+							<img src="./img/card2.jpg" alt="card_photo" class="card__img">
+							<div class="card__bottom">
+								<a href="#" class="card__header">Обзорная морская прогулка с экскурсией<span class="icon-down-dir"></span></a>
+								<p class="card__route"><b>Маршрут: </b>Сочи-Адлер-Сочи (без высадки)</p>
+								<p class="card__duration"><b>Продолжительность </b>1 ч. 0 мин.</p>
+								<span class="card__price">5 000 руб.</span>
+								<span class="card__oldprice">15 000 руб.</span>
+							</div>
+							<div class="card__flag">
+								<span class="flag__text">Скидка 10%</span>
+							</div>
+						</div>
+						<div class="catalog__card">
+							<img src="./img/card3.jpg" alt="card_photo" class="card__img">
+							<div class="card__bottom">
+								<a href="#" class="card__header">Морская прогулка в Геленджик<span class="icon-down-dir"></span></a>
+								<p class="card__route"><b>Маршрут: </b>Сочи-Туапсе-Геленджик</p>
+								<p class="card__duration"><b>Продолжительность </b>12 ч. 30 мин.</p>
+								<span class="card__price">7 000 руб.</span>
+								<span class="card__oldprice">10 000 руб.</span>
+							</div>
+							<div class="card__flag">
+								<span class="flag__text">Акция</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md">
+						<div class="catalog__card card__mid">
+							<img src="./img/card4.jpg" alt="card_photo" class="card__img">
+							<div class="card__bottom">
+								<a href="#" class="card__header">Морской круиз в Новороссийск<span class="icon-down-dir"></span></a>
+								<p class="card__route"><b>Маршрут: </b>Сочи-Геленджик-Новороссйиск-Геленджик-Сочи</p>
+								<p class="card__duration"><b>Продолжительность </b>13 ч. 0 мин.</p>
+								<span class="card__price">14 800 руб.</span>
+							</div>
+						</div>
+					</div>
+					<div class="col-md">
+						<div class="catalog__card card__mid">
+							<img src="./img/card5.jpg" alt="card_photo" class="card__img">
+							<div class="card__bottom">
+								<a href="#" class="card__header">Морская прогулка в Абрау-Дюрсо  <span class="icon-down-dir"></span></a>
+								<p class="card__route"><b>Маршрут: </b>Сочи-Абрау-Дюрсо</p>
+								<p class="card__duration"><b>Продолжительность </b>11 ч. 0 мин.</p>
+								<span class="card__price">14 800 руб.</span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<button class="bottom__button">Больше круизов<i class="icon-down-dir"></i></button>
+		</section>
+	</div><!-- container -->
+	<footer class="footer">
+		<div class="container">
+			<div class="row justify-content-between">
+				<div class="col-auto">
+					<ul>
+						<li><a href="#">Вход для партнеров</a></li>
+						<li><a href="#">О компании</a></li>
+						<li><a href="#">Контакты</a></li>
+					</ul>
+				</div>
+				<div class="col-auto">
+					<span>Будь на связи</span>
+					<ul class="social">
+						<li><a href="#" class="icon-vkontakte"></a></li>
+						<li><a href="#" class="icon-odnoklassniki"></a></li>
+						<li><a href="#" class="icon-youtube"></a></li>
+						<li><a href="#" class="icon-instagram"></a></li>
+					</ul>
+				</div>
+				<div class="col-auto">
+					<span class="phone_number">8 800 500-61-05</span><br>
+					<span class="phone_text">Круглосуточная поддержка</span><br>
+					<span class="copy">© 2016 OOO «Городские Круизы»</span>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-4 offset-4" id="modal_form">
+				<span id="modal_close">X</span>
+			</div>
+		</div>
+	</div>
+	<div id="overlay"></div>
+	
+	<script src="js/scripts.min.js"></script>
+</body>
+</html>

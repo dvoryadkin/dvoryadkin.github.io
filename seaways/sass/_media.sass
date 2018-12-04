@@ -1,0 +1,48 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+  h1
+    font-size: 50px!important
+// ≥992px
++media-breakpoint-down(md)
+  
+// ≥768px
++media-breakpoint-down(sm)
+  .main__line
+	  left: 35%
+// ≥576px
++media-breakpoint-down(xs)
+  .main__line
+	  left: 24%
+  .dropdown_menu
+    position: absolute
+    padding: 20px
+    width: 300px
+    background-color: $text
+    a
+      color: #fff
+      font-size: 18px
+      font-family: $robotoslab
+      padding: 15px
+      display: block
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
+
+
+
+@import "vars"
